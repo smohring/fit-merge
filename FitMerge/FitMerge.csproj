@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <!-- WPF0001: the Fluent ThemeMode is still marked "evaluation" in .NET 9/10 -->
+    <NoWarn>$(NoWarn);WPF0001</NoWarn>
+    <AssemblyTitle>FitMerge</AssemblyTitle>
+    <Version>0.1.0</Version>
+    <ApplicationIcon>Assets/app.ico</ApplicationIcon>
+    <!-- Strings.resx is English; Strings.de.resx becomes a satellite assembly -->
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Garmin.FIT.Sdk" Version="21.205.0" />
+    <Resource Include="Assets/app.ico" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>FitMerge – FIT-Dateien zusammenführen</value></data>
+  <data name="FilesHeader" xml:space="preserve"><value>Dateien</value></data>
+  <data name="AddButton" xml:space="preserve"><value>＋ Hinzufügen</value></data>
+  <data name="RemoveButton" xml:space="preserve"><value>Entfernen</value></data>
+  <data name="DropHint" xml:space="preserve"><value>Tipp: FIT-Dateien einfach ins Fenster ziehen.</value></data>
+  <data name="PreviewHeader" xml:space="preserve"><value>Vorschau</value></data>
+  <data name="PreviewEmpty" xml:space="preserve"><value>Wähle links eine Datei aus, um ihre Daten zu sehen.</value></data>
+  <data name="LabelSport" xml:space="preserve"><value>Sportart</value></data>
+  <data name="LabelStart" xml:space="preserve"><value>Start</value></data>
+  <data name="LabelEnd" xml:space="preserve"><value>Ende</value></data>
+  <data name="LabelDuration" xml:space="preserve"><value>Dauer</value></data>
+  <data name="LabelDistance" xml:space="preserve"><value>Distanz</value></data>
+  <data name="LabelRecords" xml:space="preserve"><value>Datenpunkte</value></data>
+  <data name="LabelAvgHr" xml:space="preserve"><value>Ø Herzfrequenz</value></data>
+  <data name="LabelMaxHr" xml:space="preserve"><value>Max. Herzfrequenz</value></data>
+  <data name="LabelCalories" xml:space="preserve"><value>Kalorien</value></data>
+  <data name="LabelLaps" xml:space="preserve"><value>Runden</value></data>
+  <data name="LabelPauses" xml:space="preserve"><value>Pausen</value></data>
+  <data name="LabelTimer" xml:space="preserve"><value>Timer-Zeit</value></data>
+  <data name="AnalysisHeader" xml:space="preserve"><value>Analyse &amp; Konflikte</value></data>
+  <data name="AnalysisNone" xml:space="preserve"><value>Keine Auffälligkeiten.</value></data>
+  <data name="OptionsHeader" xml:space="preserve"><value>Optionen</value></data>
+  <data name="OverlapLabel" xml:space="preserve"><value>Bei Überlappung:</value></data>
+  <data name="OverlapPreferFirst" xml:space="preserve"><value>Frühere Datei bevorzugen</value></data>
+  <data name="OverlapPreferSecond" xml:space="preserve"><value>Spätere Datei bevorzugen</value></data>
+  <data name="OverlapKeepAll" xml:space="preserve"><value>Alle Datenpunkte behalten</value></data>
+  <data name="PauseCheck" xml:space="preserve"><value>Lücken (&gt; 60 s) als Pause markieren</value></data>
+  <data name="DeviceHeader" xml:space="preserve"><value>Geräte-Metadaten</value></data>
+  <data name="DeviceExplain" xml:space="preserve"><value>Garmin Connect berechnet Training Effect, Training Load und VO2max nur dann neu, wenn Hersteller, Produkt und Seriennummer in der Datei stehen. Standard: aus der ersten Datei übernehmen.</value></data>
+  <data name="DeviceOverrideCheck" xml:space="preserve"><value>Gerät überschreiben</value></data>
+  <data name="DeviceLabel" xml:space="preserve"><value>Gerät</value></data>
+  <data name="SerialLabel" xml:space="preserve"><value>Seriennr.</value></data>
+  <data name="DeviceTarget" xml:space="preserve"><value>Zieldatei: {0}</value></data>
+  <data name="VerifyHeader" xml:space="preserve"><value>Verifikation der Zieldatei</value></data>
+  <data name="MergeButton" xml:space="preserve"><value>Zusammenführen…</value></data>
+  <data name="OpenFilter" xml:space="preserve"><value>FIT-Dateien (*.fit)|*.fit|Alle Dateien (*.*)|*.*</value></data>
+  <data name="OpenTitle" xml:space="preserve"><value>FIT-Dateien auswählen</value></data>
+  <data name="SaveFilter" xml:space="preserve"><value>FIT-Datei (*.fit)|*.fit</value></data>
+  <data name="SaveTitle" xml:space="preserve"><value>Zusammengeführte Datei speichern</value></data>
+  <data name="ReadErrorTitle" xml:space="preserve"><value>Dateien konnten nicht gelesen werden</value></data>
+  <data name="InvalidDeviceTitle" xml:space="preserve"><value>Ungültige Geräteangabe</value></data>
+  <data name="MergeFailedTitle" xml:space="preserve"><value>Zusammenführen fehlgeschlagen</value></data>
+  <data name="StatusNone" xml:space="preserve"><value>Füge mindestens zwei FIT-Dateien hinzu.</value></data>
+  <data name="StatusOne" xml:space="preserve"><value>Eine Datei geladen – füge mindestens eine weitere hinzu.</value></data>
+  <data name="StatusMany" xml:space="preserve"><value>{0} Dateien bereit zum Zusammenführen.</value></data>
+  <data name="StatusMerging" xml:space="preserve"><value>Führe Dateien zusammen…</value></data>
+  <data name="StatusSaved" xml:space="preserve"><value>✔ Gespeichert: {0} ({1:N0} Datenpunkte, {2})</value></data>
+  <data name="StatusFailed" xml:space="preserve"><value>Fehler beim Zusammenführen.</value></data>
+  <data name="SerialInvalid" xml:space="preserve"><value>Ungültige Seriennummer „{0}“ – erwartet wird eine Zahl.</value></data>
+  <data name="ArgErrorTitle" xml:space="preserve"><value>Ungültiger Startparameter</value></data>
+  <data name="ArgSerialInvalid" xml:space="preserve"><value>Ungültige Seriennummer „{0}“ – erwartet wird eine Zahl von 0 bis {1}.</value></data>
+  <data name="ArgMissingValue" xml:space="preserve"><value>Zu „{0}“ fehlt der Wert.</value></data>
+  <data name="ArgUnknownLanguage" xml:space="preserve"><value>Unbekannte Sprache „{0}“ – erlaubt sind „en“ und „de“.</value></data>
+  <data name="ErrNotFit" xml:space="preserve"><value>Keine gültige FIT-Datei (Header-Prüfung fehlgeschlagen).</value></data>
+  <data name="ErrNoRecords" xml:space="preserve"><value>Die Datei enthält keine Datenpunkte (Records) – keine Aktivitätsdatei?</value></data>
+  <data name="ErrNoDeviceName" xml:space="preserve"><value>Kein Gerätename angegeben.</value></data>
+  <data name="ErrUnknownDevice" xml:space="preserve"><value>Unbekanntes Gerät „{0}“. {1} Geräte sind im FIT-SDK-Profil hinterlegt.</value></data>
+  <data name="SuggestHeader" xml:space="preserve"><value>Meinst du eines davon?</value></data>
+  <data name="SuggestNumeric" xml:space="preserve"><value>Alternativ die numerische Produkt-ID direkt angeben.</value></data>
+  <data name="DeviceUnknown" xml:space="preserve"><value>unbekannt</value></data>
+  <data name="DeviceNoSerial" xml:space="preserve"><value>ohne Seriennummer</value></data>
+  <data name="DeviceSerial" xml:space="preserve"><value>SN {0}</value></data>
+  <data name="IssueSports" xml:space="preserve"><value>Unterschiedliche Sportarten ({0}) – die Sportart der frühesten Datei wird für die Zieldatei übernommen.</value></data>
+  <data name="IssueDuplicate" xml:space="preserve"><value>„{0}“ und „{1}“ decken exakt denselben Zeitraum ab – vermutlich Duplikate.</value></data>
+  <data name="IssueOverlap" xml:space="preserve"><value>Überlappung von {0} zwischen „{1}“ und „{2}“ – Auflösung über die Option „Bei Überlappung“. Distanz- und Kaloriensummen können im Überlappungsbereich doppelt zählen.</value></data>
+  <data name="IssueGap" xml:space="preserve"><value>Lücke von {0} zwischen „{1}“ und „{2}“ – wird je nach Option als Pause markiert.</value></data>
+  <data name="IssuePause" xml:space="preserve"><value>„{0}“ enthält {1} Pause(n) – sie bleiben in der Zieldatei als Pausen erhalten.</value></data>
+  <data name="IssueDeviceInherited" xml:space="preserve"><value>Geräte-Metadaten werden aus „{0}“ übernommen: {1}.</value></data>
+  <data name="IssueDeviceOverridden" xml:space="preserve"><value>Geräte-Metadaten überschrieben: {0}.</value></data>
+  <data name="IssueNotGarmin" xml:space="preserve"><value>Hersteller ist nicht Garmin ({0}) – Garmin Connect berechnet Training Effect, Training Load und VO2max dann in der Regel nicht neu. Über die Geräte-Option lässt sich ein Garmin-Gerät setzen.</value></data>
+  <data name="IssueNoProduct" xml:space="preserve"><value>Kein Produkt in der Quelldatei hinterlegt – ohne Produkt-ID rechnet Garmin Connect nicht neu. Bitte ein Gerät auswählen.</value></data>
+  <data name="IssueNoSerial" xml:space="preserve"><value>Keine Seriennummer vorhanden – die Zuordnung zur Trainingsbelastung des Geräts in Garmin Connect kann fehlschlagen.</value></data>
+  <data name="IssueOtherDevice" xml:space="preserve"><value>Die übrigen Dateien stammen von einem anderen Gerät ({0}) – für die Zieldatei zählt die erste Datei.</value></data>
+</root>

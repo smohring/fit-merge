@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/FitMerge.SmokeTests/FitMerge.SmokeTests.csproj" />
+  </Folder>
+  <Project Path="FitMerge/FitMerge.csproj" />
+</Solution>
